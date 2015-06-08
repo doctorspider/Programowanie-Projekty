@@ -141,6 +141,20 @@ namespace Projekt
             Application.Current.Shutdown();
         }
 
+        private void CreateTableButton(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Connection = new Ado(constr);
+                Connection.Connect();
+                (Connection as Ado).CreateTable();
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Baza nie mogła zostać utowrzona.");
+            }
+        }
+
     
 
 

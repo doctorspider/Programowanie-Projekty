@@ -28,10 +28,11 @@
         <Rectangle Fill="#FF242427" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="467"/>
         <Label Content="User Management Center" HorizontalAlignment="Left" Height="28" Margin="8,0,0,0" VerticalAlignment="Top" Width="169" Foreground="#FF89898D" FontFamily="Segoe UI Symbol" FontSize="11" FontWeight="Bold"/>
 
-        <Button Padding="0" Content="x" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="18" Margin="442,3,5,0" Style="{DynamicResource MetroButton}" VerticalAlignment="Top" Width="20" BorderBrush="#FF313134" Background="#FF424246" Foreground="#FF242427" FontFamily="Segoe WP Black" Click="CloseClick">
+        <Button Padding="0" Content="x" FontSize="10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="18" Margin="442,3,5,0" Style="{DynamicResource MetroButton}" VerticalAlignment="Top" Width="20" BorderBrush="#FF313134" Background="#FF5E5E61" Foreground="#FF242427" FontFamily="Segoe WP Black" Click="CloseClick">
 
         </Button>
         <CheckBox Name="Autoban" Content="Automatic Ban" HorizontalAlignment="Left" Height="21" Margin="323,285,0,0" VerticalAlignment="Top" Width="109" Background="#FF313134" Foreground="#FFCFD4CF"/>
+        <Button Content="Create Table" HorizontalAlignment="Left" Height="29" Margin="374,311,0,0" VerticalAlignment="Top" Width="83" Style="{DynamicResource MetroButton}" Background="#FF313134" Foreground="#FFCDCDCD" BorderBrush="#FF242427" Click="CreateTableButton" FontSize="10" />
 
     </Grid>
 
